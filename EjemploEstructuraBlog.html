@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nombre de la página que aparecerá en la pestaña</title>
+</head>
+<body>
+  <header>
+    <!-- a la lista desordenada la vamos a anidar en una etiqueta <nav></nav> para identificarla como lista de navegación. Es una cuestion de convención de estructura. -->
+    <nav>
+      <ul>
+        <li>Titulo Seccion 1</li>
+        <li>Titulo Seccion 2</li>
+        <li>Titulo Seccion 3</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- la presentacion la vamos a hacer por fuera de las secciones para que quede mas prolijo y la vamos a anidar en un <div></div> -->
+    <div>
+    <h1>TITULO PRINCIPAL DE LA PÁGINA</h1>
+    <p>breve descripción</p>
+    <img src="ruta de una imagen que represente el blog en general" alt="breve descripcion de la imagen, menos de 6 palabras">
+    <!-- si la ruta es una url de una imagen de la web, se copia la direcion de la imagen con click derecho y se pega entre las comillas
+    si la imagen la descargamos a nuestra pc, primero la guardamos en la carpeta de nuestro proyecto y luego la citamos entre las comilla escribiendo ./ y seleccionando la opcion correspondiente -->
+</div>
+<!-- ahora sí agregamos las secciones -->
+<section>
+  <h2>Titulo Seccion 1</h2>
+  <p>descripción de la primera Seccion</p>
+  <img src="ruta de una imagen que represente solamente al tema de esta seccion" alt="breve descripcion de la imagen, menos de 6 palabras">
+</section>
+<section>
+  <!-- a esta seccion le vamos a poner 2 o mas temas que hablen de lo mismo Ejemplo: sección servicios -> 2 servicios diferentes. Y a cada servicio lo anidamos en un <div></div> -->
+  <div>
+    <h3>Titulo del primer servicio (ej)</h3>
+    <p>descripcion del 1° sevicio</p>
+    <img src="ruta de la imagen del primer servicio" alt="breve descripcion de la imagen, menos de 6 palabras">
+  </div>
+  <div>
+    <h3>Titulo del segundo servicio (ej)</h3>
+    <p>descripcion del 2° sevicio</p>
+    <img src="ruta de la imagen del segundo servicio" alt="breve descripcion de la imagen, menos de 6 palabras">
+  </div>
+</section>
+<section>
+  <!-- pongo una sección mas de ejemplo, sientanse libres de agregar la cantidad que deseen y con la estructura que deseen, pero que al menos haya una que incluya dos o mas subsecciones anidadas en <div></div> -->
+  <h2>Titulo Seccion 3</h2>
+  <p>descripción de la tercer Seccion</p>
+  <img src="ruta de una imagen que represente solamente al tema de esta seccion" alt="breve descripcion de la imagen, menos de 6 palabras">
+</section>
+  </main>
+  <footer>
+    <!-- Esta parte aun no la vimos, se suele poner una breve descripcion del autor y la fecha de creación ejemplo: -->
+    <p>©2024 By Trinidad Lari</p>
+  </footer>
+</body>
+</html>

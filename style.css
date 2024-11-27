@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+body{
+    background-color: rgba(0, 132, 255, 0.89);
+  
+}
+h2{
+    color: rgb(11, 184, 39);
+   font-size: 100px;
+   font-style: italic;
+   font-weight: bold;
+   font-family: "Matemasie", sans-serif;
+   background-color: black;
+   
+}
+h1{
+    color: rgb(210, 51, 30);
+    font-size: 50px;
+    font-style: inherit;
+    font-family: "Matemasie", sans-serif;
+}
+p{
+    color: rgb(226, 18, 18);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.imagenes-productos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+li{
+    color: chartreuse;
+    font-size: 50px;
+    
+}
